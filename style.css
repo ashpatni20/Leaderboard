@@ -7,6 +7,7 @@
 body{
     font-family: 'poppins', "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* background-color: #DDDDDD ; */
+    /* color: #DDDDDD; */
 
     
 }
@@ -41,7 +42,7 @@ body{
     font-weight: bold;
     background-color: #3F7B70;
     border: none;
-    /* color: #ffffff; */
+    color: #ffffff;
     box-shadow: 2px 2px 2px #3F7B70;
 }
 ::placeholder{
