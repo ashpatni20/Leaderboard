@@ -127,6 +127,7 @@ body{
     justify-content: space-around;
     align-items: center; 
     flex-direction: column;
+    text-align: center;
     /* border: 2px solid black; */
 
 }
@@ -134,7 +135,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 90px;
+    gap: 80px;
     /* border: 2px solid black; */
     height: 80px;
     width: 90%;
@@ -145,12 +146,18 @@ body{
     color: #DDDDDD;
     border-radius: 5px;
     box-shadow: gray 2px 2px 2px;
+    text-align: center;
     /* cursor: pointer; */
 }
 .playerScore{
     display: flex;
     align-items: center;
-    align-items: center;
     gap: 80px;
     cursor: pointer;
+}
+
+.playerInfo > span{
+    /* border: 2px solid yellow; */
+    width: 100px;
+    text-align: start;
 }
